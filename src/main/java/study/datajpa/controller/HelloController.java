@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-
+    //git branch test
     @GetMapping("/")
     public String hello(){
         return "hello";
